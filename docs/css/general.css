@@ -11,9 +11,14 @@
 html {
     font-family: "Open Sans", sans-serif;
     color: var(--fg);
-    background-color: var(--bg);
+    background: var(--bg-gradient);
+    background-attachment: fixed;
     text-size-adjust: none;
     -webkit-text-size-adjust: none;
+}
+
+:root {
+    --bg-gradient: linear-gradient(120deg, #0650b1, rgb(0, 128, 0));
 }
 
 body {
@@ -86,6 +91,10 @@ h6:target::before {
 }
 .page-wrapper {
     box-sizing: border-box;
+    background: transparent;
+}
+
+.content {
     background-color: var(--bg);
 }
 .no-js .page-wrapper,

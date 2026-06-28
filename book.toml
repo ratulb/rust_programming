@@ -9,3 +9,6 @@ description = "Programming Problems & Data Structures in Rust"
 [build]
 build-dir = "docs"
 
+[output.html]
+additional-css = ["theme/custom.css"]
+
