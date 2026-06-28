@@ -11,4 +11,6 @@ build-dir = "docs"
 
 [output.html]
 additional-css = ["theme/custom.css"]
+default-theme = "navy"
+preferred-dark-theme = "navy"
 
