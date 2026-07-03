@@ -1,7 +1,6 @@
 [book]
 authors = ["Ratul Buragohain"]
 language = "en"
-multilingual = true
 src = "src"
 title = "Programming Problems & Data Structures in Rust"
 description = "Programming Problems & Data Structures in Rust"
@@ -10,6 +9,7 @@ description = "Programming Problems & Data Structures in Rust"
 build-dir = "docs"
 
 [output.html]
+git-repository-url = "https://github.com/ratulb/rust_programming"
 additional-css = ["theme/custom.css"]
 default-theme = "navy"
 preferred-dark-theme = "navy"
