@@ -12,7 +12,7 @@ This repository provides well-structured and optimized solutions to classical al
 ## Featured Problems & Implementations
 The project covers a variety of topics, including:
 
-### **Array & Number Problems**
+### Array & Number Problems
 - Segregate negatives & positives
 - Buy and sell stock once
 - Contains duplicate
@@ -23,12 +23,12 @@ The project covers a variety of topics, including:
 - Product of array except self
 - K nearest points from a given point
 
-### **String Problems**
+### String Problems
 - Segregate RGB characters
 - Longest common prefix
 - Longest common suffix
 
-### **Dynamic Programming & Recursion**
+### Dynamic Programming & Recursion
 - Longest increasing subsequence
 - Number of ways to reach matrix end
 - Palindrome partitioning
@@ -36,13 +36,13 @@ The project covers a variety of topics, including:
 - Subsets (backtracking, iterative, bit manipulation)
 - Combination sum (multiple variants)
 
-### **Search & Sorting**
+### Search & Sorting
 - Minimum in sorted rotated array
 - Insert a new interval to a list of sorted intervals
 - Search in a row and column-wise sorted matrix
 - Search a target in a sorted rotated array
 
-### **Data Structures Implementations**
+### Data Structures Implementations
 - **Binary Search Tree (BST)** with parent pointers
 - **Trie (Prefix Tree)** for efficient string searching
 - **Min Heap & Max Heap** for priority queue operations
