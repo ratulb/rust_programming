@@ -13,4 +13,5 @@ git-repository-url = "https://github.com/ratulb/rust_programming"
 additional-css = ["theme/custom.css"]
 default-theme = "navy"
 preferred-dark-theme = "navy"
+fold.enable = true
 
