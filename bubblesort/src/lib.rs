@@ -2,17 +2,16 @@
 
 pub fn sort<T: PartialOrd>(items: &mut [T]) {
     let mut swapped = true;
+    let mut i = 0;
     while swapped {
         swapped = false;
-        let mut i = 0;
         for j in 0..items.len() - 1 - i {
             if items[j] > items[j + 1] {
                 items.swap(j, j + 1);
                 swapped = true;
-                // i += 1;
             }
-            i += 1;
         }
+        i += 1;
     }
 }
 
